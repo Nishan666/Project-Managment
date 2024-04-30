@@ -1,10 +1,10 @@
 {
   "name": "refs-demo-project",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nishan666.github.io/Project-Managment",
   "scripts": {
+    "homepage": "https://nishan666.github.io/Project-Managment",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
@@ -25,6 +25,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"

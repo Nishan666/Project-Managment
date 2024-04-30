@@ -3,17 +3,16 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nishan666.github.io/Project-Managment",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
+    "react": "^18.2.0", 
     "react-dom": "^18.2.0"
   },
   "devDependencies": {

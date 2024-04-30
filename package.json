@@ -3,8 +3,8 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nishan666.github.io/Project-Managment",
   "scripts": {
-    "homepage": "https://nishan666.github.io/Project-Managment",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
